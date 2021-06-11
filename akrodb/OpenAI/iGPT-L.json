@@ -1,0 +1,35 @@
+{
+    "name": "iGPT-L", 
+    "series": "iGPT", 
+    "organization": "OpenAI", 
+    "modality": "CV", 
+    "publication": {
+        "date": "2020-06-17", 
+        "link": "http://proceedings.mlr.press/v119/chen20s.html", 
+        "name": "Generative Pretraining from Pixels"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 1.4, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 248, 
+        "hardware": "TPU", 
+        "framework": "TensorFlow", 
+        "provider": "GCP", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": "?", 
+        "name": "web images", 
+        "content": "Images", 
+        "link": "", 
+        "training_tokens": "128M images", 
+        "availability": "not available", 
+        "size": "?"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "PanGu-\u03b1", 
+    "series": "PanGu", 
+    "organization": "Huawei", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-04-26", 
+        "link": "https://arxiv.org/abs/2104.12369", 
+        "name": "PanGu-\u03b1: Large-Scale Autoregressive Pretrained Chinese Language Models with Auto-Parallel Computation (Zeng et al., 2021)"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 207, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": 583, 
+        "hardware": "Ascend 910", 
+        "framework": "MindSpore", 
+        "provider": "Huawei", 
+        "code_availability": "public", 
+        "code_link": "https://git.openi.org.cn/PCL-Platform.Intelligence/PanGu-Alpha#user-content-\u6a21\u578b\u4e0b\u8f7d"
+    }, 
+    "dataset": {
+        "unique_tokens": 258, 
+        "name": "custom", 
+        "content": "Chinese", 
+        "link": "", 
+        "training_tokens": 42, 
+        "availability": "not available", 
+        "size": 1100
+    }
+}

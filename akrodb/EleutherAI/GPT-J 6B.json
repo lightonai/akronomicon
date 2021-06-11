@@ -1,0 +1,35 @@
+{
+    "name": "GPT-J-6B", 
+    "series": "GPT-J", 
+    "organization": "EleutherAI", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-06-04", 
+        "link": "https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/", 
+        "name": "GPT-J-6B: 6B JAX-Based Transformer (Wang  et al., 2021)"
+    }, 
+    "model": {
+        "link": "https://github.com/kingoflolz/mesh-transformer-jax/", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 6.1, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 168, 
+        "hardware": "TPU v3", 
+        "framework": "JAX", 
+        "provider": "GCP", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/kingoflolz/mesh-transformer-jax/"
+    }, 
+    "dataset": {
+        "unique_tokens": 194, 
+        "name": "The Pile", 
+        "content": "English", 
+        "link": "https://pile.eleuther.ai/", 
+        "training_tokens": 400, 
+        "availability": "public", 
+        "size": 825
+    }
+}

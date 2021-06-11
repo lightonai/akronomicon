@@ -1,0 +1,35 @@
+{
+    "name": "GPT-3 175B", 
+    "series": "GPT-3", 
+    "organization": "OpenAI", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2020-05-20", 
+        "link": "https://arxiv.org/abs/2005.14165", 
+        "name": "Language Models are Few-Shot Learners (Brown et al., 2020)"
+    }, 
+    "model": {
+        "link": "https://beta.openai.com/", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 175, 
+        "availability": "commercial (API)"
+    }, 
+    "training": {
+        "compute": 3640, 
+        "hardware": "V100", 
+        "framework": "PyTorch", 
+        "provider": "Microsoft", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": 218, 
+        "name": "custom", 
+        "content": "English", 
+        "link": "", 
+        "training_tokens": 300, 
+        "availability": "not available", 
+        "size": 428
+    }
+}

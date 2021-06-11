@@ -1,0 +1,35 @@
+{
+    "name": "ruGPT3XL", 
+    "series": "ruGPT3", 
+    "organization": "SberBank", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-01-28", 
+        "link": "https://github.com/sberbank-ai/ru-gpts", 
+        "name": "ruGPT3XL, ruGPT3Large, ruGPT3Medium, ruGPT3Small and ruGPT2Large"
+    }, 
+    "model": {
+        "link": "https://github.com/sberbank-ai/ru-gpts", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 1.3, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 36.1, 
+        "hardware": "V100", 
+        "framework": "PyTorch, DeepSpeed", 
+        "provider": "Christofari", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/sberbank-ai/ru-gpts"
+    }, 
+    "dataset": {
+        "unique_tokens": 80, 
+        "name": "custom", 
+        "content": "Russian", 
+        "link": "", 
+        "training_tokens": 400, 
+        "availability": "not available", 
+        "size": 157
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "CPM-Large", 
+    "series": "CPM", 
+    "organization": "BAAI", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2020-12-01", 
+        "link": "https://arxiv.org/abs/2012.00413", 
+        "name": "CPM: A Large-scale Generative Chinese Pre-trained Language Model (Zhang et al., 2020)"
+    }, 
+    "model": {
+        "link": "https://github.com/TsinghuaAI/CPM-Generate", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 1.5, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 18, 
+        "hardware": "V100", 
+        "framework": "PyTorch", 
+        "provider": "BAAI", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/TsinghuaAI/CPM-Generate"
+    }, 
+    "dataset": {
+        "unique_tokens": 50, 
+        "name": "custom", 
+        "content": "Chinese", 
+        "link": "", 
+        "training_tokens": "?", 
+        "availability": "not available", 
+        "size": 100
+    }
+}

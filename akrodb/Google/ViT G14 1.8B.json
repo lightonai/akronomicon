@@ -1,0 +1,35 @@
+{
+    "name": "ViT-G/14", 
+    "series": "ViT", 
+    "organization": "Google", 
+    "modality": "CV", 
+    "publication": {
+        "date": "2021-06-08", 
+        "link": "https://arxiv.org/abs/2106.04560", 
+        "name": "Scaling Vision Transformers (Zhai et al., 2021)"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "encoder", 
+        "details": "", 
+        "parameters": 1.8, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": 34, 
+        "hardware": "TPU v3", 
+        "framework": "TensorFlow", 
+        "provider": "GCP", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": "3B images", 
+        "name": "JFT-3B", 
+        "content": "Images", 
+        "link": "", 
+        "training_tokens": "3B images", 
+        "availability": "not available", 
+        "size": "?"
+    }
+}

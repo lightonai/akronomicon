@@ -1,0 +1,35 @@
+{
+    "name": "HyperClova", 
+    "series": "", 
+    "organization": "Naver", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-05-25", 
+        "link": "https://www.navercorp.com/promotion/pressReleasesView/30546", 
+        "name": "Naver unveils Korea's first super-scale AI HyperClova"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 204, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": 630, 
+        "hardware": "V100", 
+        "framework": "PyTorch", 
+        "provider": "Naver", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": 650, 
+        "name": "", 
+        "content": "Korean", 
+        "link": "", 
+        "training_tokens": "?", 
+        "availability": "not available", 
+        "size": 1300
+    }
+}

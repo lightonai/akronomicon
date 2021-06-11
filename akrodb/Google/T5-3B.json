@@ -1,0 +1,35 @@
+{
+    "name": "T5-3B", 
+    "series": "T5", 
+    "organization": "Google", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2019-09-23", 
+        "link": "https://arxiv.org/abs/1910.10683", 
+        "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+    }, 
+    "model": {
+        "link": "https://github.com/google-research/text-to-text-transfer-transformer#released-model-checkpoints", 
+        "type": "seq2seq", 
+        "details": "", 
+        "parameters": 3, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 104, 
+        "hardware": "TPU v3", 
+        "framework": "TensorFlow", 
+        "provider": "GCP", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/google-research/text-to-text-transfer-transformer"
+    }, 
+    "dataset": {
+        "unique_tokens": 177, 
+        "name": "C4", 
+        "content": "English", 
+        "link": "https://www.tensorflow.org/datasets/catalog/c4", 
+        "training_tokens": 1000, 
+        "availability": "public", 
+        "size": 750
+    }
+}

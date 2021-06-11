@@ -1,0 +1,35 @@
+{
+    "name": "M6-10B", 
+    "series": "M6", 
+    "organization": "Alibaba", 
+    "modality": "multimodal", 
+    "publication": {
+        "date": "2021-03-01", 
+        "link": "https://arxiv.org/abs/2103.00823", 
+        "name": "M6: A Chinese Multimodal Pretrainer (Lin et al., 2020)"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "seq2seq", 
+        "details": "", 
+        "parameters": 10, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": "?", 
+        "hardware": "V100", 
+        "framework": "TensorFlow, Whale", 
+        "provider": "Alibaba", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": "61M images, 112B tokens", 
+        "name": "custom", 
+        "content": "Image & Chinese text", 
+        "link": "", 
+        "training_tokens": "61M images, 17.5B tokens", 
+        "availability": "not available", 
+        "size": "1.9TB images, 292.4GB text"
+    }
+}

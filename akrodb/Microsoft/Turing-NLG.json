@@ -1,0 +1,35 @@
+{
+    "name": "Turing-NLG", 
+    "series": "Turing", 
+    "organization": "Microsoft", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2020-02-13", 
+        "link": "https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/", 
+        "name": "Turing-NLG: A 17-billion-parameter language model by Microsoft"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 17, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": 157, 
+        "hardware": "V100", 
+        "framework": "PyTorch, DeepSpeed", 
+        "provider": "Microsoft", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": 177, 
+        "name": "custom", 
+        "content": "English", 
+        "link": "", 
+        "training_tokens": 1000, 
+        "availability": "not available", 
+        "size": 750
+    }
+}

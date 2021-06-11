@@ -1,0 +1,35 @@
+{
+    "name": "AraGPT2-Mega", 
+    "series": "AraGPT2", 
+    "organization": "American University of Beirut", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2020-12-30", 
+        "link": "https://arxiv.org/abs/2012.15520v1", 
+        "name": "AraGPT2: Pre-Trained Transformer for Arabic Language Generation (Antoun et al., 2020)"
+    }, 
+    "model": {
+        "link": "https://github.com/aub-mind/arabert/tree/master/aragpt2", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 1.5, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 20, 
+        "hardware": "TPU v3", 
+        "framework": "TensorFlow", 
+        "provider": "GCP", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/aub-mind/arabert/tree/master/aragpt2"
+    }, 
+    "dataset": {
+        "unique_tokens": 10, 
+        "name": "custom", 
+        "content": "Arabic", 
+        "link": "", 
+        "training_tokens": 200, 
+        "availability": "not available", 
+        "size": 20
+    }
+}

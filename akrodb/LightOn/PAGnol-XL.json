@@ -1,0 +1,35 @@
+{
+    "name": "PAGnol-XL", 
+    "series": "PAGnol", 
+    "organization": "LightOn", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-05-04", 
+        "link": "https://lair.lighton.ai/pagnol/", 
+        "name": "PAGnol: An Extra-Large French Generative Model (Launay et al., 2021)"
+    }, 
+    "model": {
+        "link": "https://github.com/lightonai/lairgpt", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 1.5, 
+        "availability": "commercial (API)"
+    }, 
+    "training": {
+        "compute": 3, 
+        "hardware": "V100", 
+        "framework": "PyTorch, FairSeq", 
+        "provider": "Jean Zay", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": 32, 
+        "name": "CCNet", 
+        "content": "French", 
+        "link": "https://github.com/facebookresearch/cc_net", 
+        "training_tokens": 32, 
+        "availability": "reproducible", 
+        "size": 133
+    }
+}

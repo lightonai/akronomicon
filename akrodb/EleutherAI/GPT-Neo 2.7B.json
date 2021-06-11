@@ -1,0 +1,35 @@
+{
+    "name": "GPT-Neo 2.7B", 
+    "series": "GPT-Neo", 
+    "organization": "EleutherAI", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-03-21", 
+        "link": "http://github.com/eleutherai/gpt-neo", 
+        "name": "GPT-Neo: Large Scale Autoregressive Language Modeling with Mesh-Tensorflow"
+    }, 
+    "model": {
+        "link": "https://github.com/EleutherAI/gpt-neo", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 2.7, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 79, 
+        "hardware": "TPU", 
+        "framework": "TensorFlow", 
+        "provider": "GCP", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/EleutherAI/gpt-neo"
+    }, 
+    "dataset": {
+        "unique_tokens": 194, 
+        "name": "The Pile", 
+        "content": "English", 
+        "link": "https://pile.eleuther.ai/", 
+        "training_tokens": 420, 
+        "availability": "public", 
+        "size": 825
+    }
+}

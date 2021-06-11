@@ -1,0 +1,35 @@
+{
+    "name": "Megatron-BERT", 
+    "series": "Megatron", 
+    "organization": "NVIDIA", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2019-09-17", 
+        "link": "https://arxiv.org/abs/1909.08053", 
+        "name": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "encoder", 
+        "details": "", 
+        "parameters": 3.9, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": 568, 
+        "hardware": "V100", 
+        "framework": "PyTorch", 
+        "provider": "NVIDIA", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/NVIDIA/Megatron-LM"
+    }, 
+    "dataset": {
+        "unique_tokens": "41?", 
+        "name": "custom", 
+        "content": "English", 
+        "link": "", 
+        "training_tokens": 2097, 
+        "availability": "not available", 
+        "size": 174
+    }
+}

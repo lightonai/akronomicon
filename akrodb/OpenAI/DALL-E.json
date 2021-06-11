@@ -1,0 +1,35 @@
+{
+    "name": "DALL-E", 
+    "series": "DALL-E", 
+    "organization": "OpenAI", 
+    "modality": "multimodal", 
+    "publication": {
+        "date": "2020-02-24", 
+        "link": "https://arxiv.org/abs/2102.12092", 
+        "name": "Zero-Shot Text-to-Image Generation"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 12, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": 470, 
+        "hardware": "V100", 
+        "framework": "PyTorch", 
+        "provider": "Owl", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": "250M images", 
+        "name": "Image & English text", 
+        "content": "", 
+        "link": "", 
+        "training_tokens": "440M images", 
+        "availability": "not available", 
+        "size": "?"
+    }
+}
