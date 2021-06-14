@@ -16,7 +16,7 @@
         "availability": "not available"
     }, 
     "training": {
-        "compute": "?", 
+        "compute": 0, 
         "hardware": "V100", 
         "framework": "TensorFlow, Whale", 
         "provider": "Alibaba", 
