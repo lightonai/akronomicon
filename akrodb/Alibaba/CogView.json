@@ -1,0 +1,35 @@
+{
+    "name": "CogView", 
+    "series": "CogView", 
+    "organization": "Alibaba", 
+    "modality": "multimodal", 
+    "publication": {
+        "date": "2021-05-28", 
+        "link": "https://arxiv.org/abs/2105.13290", 
+        "name": "CogView: Mastering Text-to-Image Generation via Transformers (Ding et al., 2021)"
+    }, 
+    "model": {
+        "link": "https://github.com/THUDM/CogView", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 4, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 268, 
+        "hardware": "V100", 
+        "framework": "PyTorch", 
+        "provider": "Alibaba", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/THUDM/CogView"
+    }, 
+    "dataset": {
+        "unique_tokens": "30M text/images pair", 
+        "name": "custom", 
+        "content": "Image & Chinese text", 
+        "link": "", 
+        "training_tokens": "965B tokens", 
+        "availability": "not available", 
+        "size": "2.5TB pre-tokenization, 250GB after"
+    }
+}
