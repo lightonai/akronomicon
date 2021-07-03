@@ -1,0 +1,35 @@
+{
+    "name": "ProtT5-XXL", 
+    "series": "ProtTrans", 
+    "organization": "Technical University of Munich", 
+    "modality": "other", 
+    "publication": {
+        "date": "2021-05-04", 
+        "link": "https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3", 
+        "name": "ProtTrans: Towards Cracking the Language of Life’s Code Through Self-Supervised Learning (Elnaggar et al., 2021)"
+    }, 
+    "model": {
+        "link": "https://github.com/agemagician/ProtTrans#models", 
+        "type": "seq2seq", 
+        "details": "", 
+        "parameters": 11, 
+        "availability": "public"
+    }, 
+    "training": {
+        "compute": 737, 
+        "hardware": "TPU", 
+        "framework": "TensorFlow", 
+        "provider": "GCP", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/agemagician/ProtTrans"
+    }, 
+    "dataset": {
+        "unique_tokens": "2.1B proteins", 
+        "name": "BFD", 
+        "content": "proteins", 
+        "link": "https://github.com/agemagician/ProtTrans#datasets", 
+        "training_tokens": 1929, 
+        "availability": "commercial", 
+        "size": "572GB"
+    }
+}

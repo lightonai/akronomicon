@@ -1,0 +1,35 @@
+{
+    "name": "ProGen", 
+    "series": "ProGen", 
+    "organization": "Salesforce", 
+    "modality": "other", 
+    "publication": {
+        "date": "2020-03-13", 
+        "link": "https://www.biorxiv.org/content/10.1101/2020.03.07.982272v2", 
+        "name": "ProGen: Language Modeling for Protein Generation (Madani et al., 2020)"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "seq2seq", 
+        "details": "", 
+        "parameters": 1.2, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": 2.7, 
+        "hardware": "TPU", 
+        "framework": "TensorFlow", 
+        "provider": "GCP", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": "280M proteins", 
+        "name": "custom", 
+        "content": "proteins", 
+        "link": "", 
+        "training_tokens": "33B", 
+        "availability": "not available", 
+        "size": "?"
+    }
+}
