@@ -4,7 +4,7 @@
     "organization": "OpenAI", 
     "modality": "multimodal", 
     "publication": {
-        "date": "2020-02-24", 
+        "date": "2021-02-24", 
         "link": "https://arxiv.org/abs/2102.12092", 
         "name": "Zero-Shot Text-to-Image Generation"
     }, 
