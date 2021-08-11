@@ -12,7 +12,7 @@
         "link": "https://github.com/TsinghuaAI/CPM-Generate", 
         "type": "decoder", 
         "details": "", 
-        "parameters": 1.5, 
+        "parameters": 2.6, 
         "availability": "public"
     }, 
     "training": {
