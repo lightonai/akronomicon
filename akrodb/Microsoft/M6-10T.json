@@ -1,0 +1,35 @@
+{
+    "name": "M6-10T", 
+    "series": "M6", 
+    "organization": "Microsoft", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-10-04", 
+        "link": "https://arxiv.org/abs/2006.03654", 
+        "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "encoder", 
+        "details": "", 
+        "parameters": 10000, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": "160", 
+        "hardware": "V100 32GB", 
+        "framework": "Fairseq, Huggingface Transformers, Megatron", 
+        "provider": "N/A",
+        "code_availability": "available", 
+        "code_link": "https://github.com/huggingface/transformers", "https://github.com/NVIDIA/Megatron-LM, https://github.com/pytorch/fairseq"
+    }, 
+    "dataset": {
+        "unique_tokens": "N/A", 
+        "name": "Wikipedia, BookCorpus", 
+        "content": "English", 
+        "link": "",
+        "training_tokens": "N/A", 
+        "availability": "public", 
+        "size": "16"
+    }
+}
