@@ -1,0 +1,35 @@
+{
+    "name": "BigSSL", 
+    "series": "N/A", 
+    "organization": "Google", 
+    "modality": "Multimodal", 
+    "publication": {
+        "date": "2021-10-01", 
+        "link": "arxiv.org/abs/2109.13226", 
+        "name": "BigSSL: Exploring the Frontier of Large-Scale Semi-Supervised Learning for Automatic Speech Recognition"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 8, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": "N/A", 
+        "hardware": "Cloud TPU", 
+        "framework": "GShard, GSPMD", 
+        "provider": "N/A", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": "N/A", 
+        "name": "SpeechStew, CHiME-6", 
+        "content": "Multilanguage", 
+        "link": "N/A", 
+        "training_tokens": "N/A", 
+        "availability": "public", 
+        "size": "N/A"
+    }
+}
