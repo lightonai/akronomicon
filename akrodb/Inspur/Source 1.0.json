@@ -1,0 +1,35 @@
+{
+    "name": "Source 1.0", 
+    "series": "N/A", 
+    "organization": "Inspur Artificial Intelligence Research Institute", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-10-11", 
+        "link": "https://min.news/en/tech/68f98cef26303db3204084b10889fb7d.html", 
+        "name": "The world's largest AI massive model 'Source 1.0' is released, and Inspur is bravely climbing AI Everest"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "N/A", 
+        "details": "", 
+        "parameters": 245.7, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": "4095", 
+        "hardware": "N/A", 
+        "framework": "N/A", 
+        "provider": "N/A", 
+        "code_availability": "unavailable", 
+        "code_link": "https://github.com/huggingface/transformers", "https://github.com/NVIDIA/Megatron-LM, https://github.com/pytorch/fairseq"
+    }, 
+    "dataset": {
+        "unique_tokens": "N/A", 
+        "name": "", 
+        "content": "Chinese", 
+        "link": "",
+        "training_tokens": "N/A", 
+        "availability": "unavailable (chinese internet)", 
+        "size": "5000"
+    }
+}

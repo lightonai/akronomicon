@@ -1,0 +1,35 @@
+{
+    "name": "DeBERTa", 
+    "series": "N/A", 
+    "organization": "Microsoft", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-10-04", 
+        "link": "https://arxiv.org/abs/2006.03654", 
+        "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "encoder", 
+        "details": "", 
+        "parameters": 1.5, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": "60", 
+        "hardware": "V100 16GB", 
+        "framework": "Fairseq, Huggingface Transformers, Megatron", 
+        "provider": "N/A", 
+        "code_availability": "available", 
+        "code_link": "https://github.com/huggingface/transformers", "https://github.com/NVIDIA/Megatron-LM, https://github.com/pytorch/fairseq"
+    }, 
+    "dataset": {
+        "unique_tokens": "N/A", 
+        "name": "", 
+        "content": "English", 
+        "link": "https://github.com/butsugiri/homemade_bookcorpus", "https://dumps.wikimedia.org/enwiki/, https://github.com/tensorflow/models/tree/master/research/lm_commonsense"
+        "training_tokens": "N/A", 
+        "availability": "public", 
+        "size": "78"
+    }
+}
