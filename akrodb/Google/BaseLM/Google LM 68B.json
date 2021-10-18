@@ -1,0 +1,35 @@
+{
+    "name": "Google LM 68B", 
+    "series": "Google LM", 
+    "organization": "Google", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-08-16", 
+        "link": "https://arxiv.org/abs/2108.07732", 
+        "name": "Program Synthesis with Large Language Models"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "decoder", 
+        "details": "Also featured in FLAN (https://arxiv.org/abs/2109.01652)", 
+        "parameters": 68, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": 13269, 
+        "hardware": "TPUv3", 
+        "framework": "?", 
+        "provider": "Google", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": 2810, 
+        "name": "custom", 
+        "content": "English", 
+        "link": "", 
+        "training_tokens": 2810, 
+        "availability": "not available", 
+        "size": "?"
+    }
+}
