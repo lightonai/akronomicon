@@ -25,7 +25,7 @@
     }, 
     "dataset": {
         "unique_tokens": 650, 
-        "name": "", 
+        "name": "custom", 
         "content": "Korean", 
         "link": "", 
         "training_tokens": "?", 
