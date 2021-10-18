@@ -1,35 +1,35 @@
 {
     "name": "Source 1.0", 
-    "series": "N/A", 
-    "organization": "Inspur Artificial Intelligence Research Institute", 
+    "series": "Source", 
+    "organization": "Inspur", 
     "modality": "NLP", 
     "publication": {
         "date": "2021-10-11", 
-        "link": "https://min.news/en/tech/68f98cef26303db3204084b10889fb7d.html", 
+        "link": "https://www.gwern.net/docs/ai/scaling/2021-10-11-xinzhiyuan-inspursource10gpt245b.html", 
         "name": "The world's largest AI massive model 'Source 1.0' is released, and Inspur is bravely climbing AI Everest"
     }, 
     "model": {
         "link": "", 
-        "type": "N/A", 
+        "type": "decoder", 
         "details": "", 
         "parameters": 245.7, 
         "availability": "not available"
     }, 
     "training": {
-        "compute": "4095", 
-        "hardware": "N/A", 
-        "framework": "N/A", 
-        "provider": "N/A", 
+        "compute": 4095, 
+        "hardware": "?", 
+        "framework": "?", 
+        "provider": "Inspur", 
         "code_availability": "unavailable", 
         "code_link": "https://github.com/huggingface/transformers", "https://github.com/NVIDIA/Megatron-LM, https://github.com/pytorch/fairseq"
     }, 
     "dataset": {
-        "unique_tokens": "N/A", 
-        "name": "", 
+        "unique_tokens": 3000, 
+        "name": "custom", 
         "content": "Chinese", 
         "link": "",
-        "training_tokens": "N/A", 
-        "availability": "unavailable (chinese internet)", 
-        "size": "5000"
+        "training_tokens": 240, 
+        "availability": "unavailable", 
+        "size": 5000
     }
 }
