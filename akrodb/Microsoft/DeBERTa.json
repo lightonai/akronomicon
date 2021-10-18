@@ -16,20 +16,20 @@
         "availability": "not available"
     }, 
     "training": {
-        "compute": "60", 
-        "hardware": "V100 16GB", 
+        "compute": "128", 
+        "hardware": "V100", 
         "framework": "Fairseq, Huggingface Transformers, Megatron", 
-        "provider": "N/A", 
-        "code_availability": "available", 
-        "code_link": "https://github.com/huggingface/transformers", "https://github.com/NVIDIA/Megatron-LM, https://github.com/pytorch/fairseq"
+        "provider": "Microsoft", 
+        "code_availability": "not available", 
+        "code_link": "",
     }, 
     "dataset": {
-        "unique_tokens": "N/A", 
-        "name": "", 
+        "unique_tokens": "?", 
+        "name": "custom", 
         "content": "English", 
-        "link": "https://github.com/butsugiri/homemade_bookcorpus", "https://dumps.wikimedia.org/enwiki/, https://github.com/tensorflow/models/tree/master/research/lm_commonsense"
-        "training_tokens": "N/A", 
-        "availability": "public", 
-        "size": "78"
+        "link": "",
+        "training_tokens": "?", 
+        "availability": "not available", 
+        "size": "160G"
     }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "Megatron-Turing NLG 530B", 
-    "series": "", 
+    "name": "MT-NLG 530B", 
+    "series": "Megatron-Turing", 
     "organization": "Microsoft, NVIDIA", 
     "modality": "NLP", 
     "publication": {
@@ -10,26 +10,26 @@
     }, 
     "model": {
         "link": "", 
-        "type": "", 
+        "type": "decoder", 
         "details": "", 
         "parameters": 503, 
         "availability": "not available"
     }, 
     "training": {
         "compute": "120", 
-        "hardware": "NVIDIA A100 Tensor Core GPUs and HDR InfiniBand networking", 
-        "framework": "DeepSpeed, Megatron", 
-        "provider": "N/A", 
-        "code_availability": "unavailable", 
+        "hardware": "NVIDIA A100", 
+        "framework": "PyTorch, DeepSpeed, Megatron", 
+        "provider": "NVIDIA, Selene", 
+        "code_availability": "not available", 
         "code_link": ""
     }, 
     "dataset": {
-        "unique_tokens": "N/A", 
-        "name": "various (Wikipedia, Books3, ArXis and so on)", 
+        "unique_tokens": "339", 
+        "name": "The Pile (extended)", 
         "content": "English", 
-        "link": "N/A", 
-        "training_tokens": "N/A", 
-        "availability": "public", 
-        "size": "N/A"
+        "link": "", 
+        "training_tokens": "270", 
+        "availability": "reproducible", 
+        "size": "?"
     }
 }
