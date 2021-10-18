@@ -1,0 +1,35 @@
+{
+    "name": "NTT Dialog 1.1B", 
+    "series": "", 
+    "organization": "NTT", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-09-11", 
+        "link": "arxiv.org/abs/2109.05217", 
+        "name": "Empirical Analysis of Training Strategies of Transformer-based Japanese Chit-chat Systems"
+    }, 
+    "model": {
+        "link": "https://github.com/nttcslab/japanese-dialog-transformers", 
+        "type": "seq2seq", 
+        "details": "", 
+        "parameters": 1.1, 
+        "availability": "available"
+    }, 
+    "training": {
+        "compute": 8.3, 
+        "hardware": "V100 16GB", 
+        "framework": "fairseq", 
+        "provider": "ABCI", 
+        "code_availability": "public", 
+        "code_link": "https://github.com/nttcslab/japanese-dialog-transformers"
+    }, 
+    "dataset": {
+        "unique_tokens": "?", 
+        "name": "Twitter", 
+        "content": "Japanese", 
+        "link": "N/A", 
+        "training_tokens": 108, 
+        "availability": "not available", 
+        "size": "512GB"
+    }
+}
