@@ -1,0 +1,35 @@
+{
+    "name": "J1-Jumbo", 
+    "series": "Jurassic-1", 
+    "organization": "AI21", 
+    "modality": "NLP", 
+    "publication": {
+        "date": "2021-08-11", 
+        "link": "https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf", 
+        "name": "Jurassic-1: Technical Details and Evaluation"
+    }, 
+    "model": {
+        "link": "https://studio.ai21.com/", 
+        "type": "decoder", 
+        "details": "", 
+        "parameters": 178, 
+        "availability": "commercial (API)"
+    }, 
+    "training": {
+        "compute": "3708", 
+        "hardware": "NVIDIA GPU", 
+        "framework": "DeepSeed, Megatron", 
+        "provider": "?", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": "?", 
+        "name": "custom", 
+        "content": "English", 
+        "link": "", 
+        "training_tokens": 300, 
+        "availability": "not available", 
+        "size": "?"
+    }
+}
