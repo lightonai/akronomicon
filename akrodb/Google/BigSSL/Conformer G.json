@@ -1,0 +1,35 @@
+{
+    "name": "Conformer G", 
+    "series": "BigSSL", 
+    "organization": "Google", 
+    "modality": "multimodal", 
+    "publication": {
+        "date": "2021-10-01", 
+        "link": "arxiv.org/abs/2109.13226", 
+        "name": "BigSSL: Exploring the Frontier of Large-Scale Semi-Supervised Learning for Automatic Speech Recognition"
+    }, 
+    "model": {
+        "link": "", 
+        "type": "conformer", 
+        "details": "", 
+        "parameters": 8, 
+        "availability": "not available"
+    }, 
+    "training": {
+        "compute": "?", 
+        "hardware": "TPU v3", 
+        "framework": "GShard, GSPMD", 
+        "provider": "Google", 
+        "code_availability": "not available", 
+        "code_link": ""
+    }, 
+    "dataset": {
+        "unique_tokens": "N/A", 
+        "name": "custom", 
+        "content": "Audio & transcripts", 
+        "link": "", 
+        "training_tokens": "?", 
+        "availability": "not available", 
+        "size": "350kH weakly-labeled audio, 500kH pseudo-labeled audio, 900kH unlabeled audio"
+    }
+}

@@ -1,8 +1,8 @@
 {
-    "name": "BigSSL", 
-    "series": "N/A", 
+    "name": "Conformer G", 
+    "series": "BigSSL", 
     "organization": "Google", 
-    "modality": "Multimodal", 
+    "modality": "multimodal", 
     "publication": {
         "date": "2021-10-01", 
         "link": "arxiv.org/abs/2109.13226", 
@@ -10,26 +10,26 @@
     }, 
     "model": {
         "link": "", 
-        "type": "decoder", 
+        "type": "conformer", 
         "details": "", 
-        "parameters": 8, 
+        "parameters": 1, 
         "availability": "not available"
     }, 
     "training": {
-        "compute": "N/A", 
-        "hardware": "Cloud TPU", 
+        "compute": "?", 
+        "hardware": "TPU v3", 
         "framework": "GShard, GSPMD", 
-        "provider": "N/A", 
+        "provider": "Google", 
         "code_availability": "not available", 
         "code_link": ""
     }, 
     "dataset": {
         "unique_tokens": "N/A", 
-        "name": "SpeechStew, CHiME-6", 
-        "content": "Multilanguage", 
-        "link": "N/A", 
-        "training_tokens": "N/A", 
-        "availability": "public", 
-        "size": "N/A"
+        "name": "custom", 
+        "content": "Audio & transcripts", 
+        "link": "", 
+        "training_tokens": "?", 
+        "availability": "not available", 
+        "size": "350kH weakly-labeled audio, 500kH pseudo-labeled audio, 900kH unlabeled audio"
     }
 }
